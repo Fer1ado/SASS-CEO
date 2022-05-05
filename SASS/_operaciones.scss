@@ -1,0 +1,45 @@
+//MIXIN+EACH
+
+@mixin flexpos {
+    display: flex;
+    align-items: center;
+  }
+  
+
+@each $secciones in encabezado1, encabezado2, encabezado3, encabezado4, encabezado5 {
+    .#{$secciones} {
+          background-image: url("../assets/fotos_catalogo/#{$secciones}-min.jpg")
+      }
+  }
+
+
+//MIXIN+EACH
+
+  @mixin items {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    }
+  
+  
+  @each $catalogo in item1, item2,item3, item4, item5, item6, item7, item8, item9, item10, item11, item12, item13, item14 {
+    .#{$catalogo} {
+          background-image: url("../assets/fotos_catalogo/#{$catalogo}-min.jpg");
+          @include items;
+      }
+  }
+
+  //MAPS
+
+$colores:(
+  lia: rgb(235, 203, 238),
+  li: rgb(224, 124, 9),
+  negro: rgb(0, 0, 0),
+  piecito: darkgray,
+  link: darkmagenta,
+  blanco: white,
+  encabe: rgb(219 189 142),
+  contacto: bisque,
+  catalogo: rgb(255, 245, 228),
+
+);

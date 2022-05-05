@@ -1,0 +1,428 @@
+/* familias de fuentes importadas
+font-family: 'Amiri', serif;
+font-family: 'Hurricane', cursive;
+font-family: 'Inspiration', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
+
+/* font-family: 'Saira Condensed', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* font-family: 'Amiri', serif;
+font-family: 'Comic Neue', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Hurricane', cursive;
+font-family: 'Inspiration', cursive;
+font-family: 'Kosugi Maru', sans-serif;
+font-family: 'Pangolin', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Reenie Beanie', cursive;
+font-family: 'Rock Salt', cursive;
+font-family: 'Rubik Microbe', cursive;
+font-family: 'Short Stack', cursive;
+font-family: 'Source Sans Pro', sans-serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Fredericka+the+Great&family=Hurricane&family=Inspiration&family=Kosugi+Maru&family=Pangolin&family=Patrick+Hand&family=Raleway:ital,wght@0,100;0,600;0,900;1,100;1,600;1,900&family=Reenie+Beanie&family=Rock+Salt&family=Rubik+Microbe&family=Short+Stack&family=Source+Sans+Pro:wght@200&display=swap");
+/* 
+*,
+*::before,
+*::after {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+ 
+}
+
+html {
+  font-family: "Hurricane", cursive;
+  font-size: 1.1rem;
+}
+
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+h1 img {
+  justify-self: start;
+  position: relative;
+  margin-top: 1rem;
+  height: 16rem;
+  width: 16rem;
+  transition: 500ms ease-in-out;
+                
+}
+
+h1 img:hover {
+  transform: scale(115%);
+}
+
+h1:hover {
+  text-shadow: 10px, 10px, 10px, wheat;
+}
+
+nav ul li a:hover {
+  background-color: rgba(112, 71, 150, 0.4);
+  box-shadow: 10px 10px 20px black;
+}
+
+.nav_responsive {
+  display: none;
+}
+
+label {
+  display: none;
+}
+
+.nav_responsive:checked ~ nav {
+  display: block;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  width: 100%;
+  position: relative;
+}
+
+.texto-interior {
+  color: #fff;
+  font-size: 2rem;
+  left: 10%;
+  position: relative;
+  text-align: center;
+  top: 50%;
+  width: 80%;
+}
+
+
+.textobase {
+  padding: 20px;
+  text-align: justify;
+  color: rgb(7, 1, 3);
+  width: 70%;
+  line-height: 1.3;
+  font-size: 170%;
+  margin-left: 14%;
+}
+
+.primera {
+  margin-top: 20%;
+}
+
+div {
+  border: 5px;
+  border-color: black;
+  border-radius: 15px;
+}
+
+section div {
+  margin-top: 20px;
+}
+
+
+
+.mapouter {
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  width: 80%;
+}
+
+.ordenadito {
+  display: list-item;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.encabezado {
+  top: 65%;
+  color: rgb(219 189 142);
+  font-family: "Hurricane", cursive;
+  text-shadow: 20px 8px 8px black;
+  outline: 1px solid;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+section article:hover {
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.2);
+}
+
+.parallax,
+.main,
+.texto {
+  margin: 0 auto;
+}
+
+.comercios_list {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 20%;
+  margin-right: 20%;
+  border: 1px dotted black;
+  padding: 30px;
+  text-align: center;
+}
+
+.comercios_adr {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+
+.img-uno {
+  background-image: url(../ASSETS/LOGOS/DSC06192.jpg);
+}
+.img-dos {
+  background-image: url(../ASSETS/LOGOS/ZIMA_FONDONUEVOLOG.png);
+}
+.img-tres {
+  background-image: url(../ASSETS/LOGOS/DSC06238.jpg);
+}
+.encabezado1 {
+  background-image: url(../ASSETS/FOTOS_CATALOGO/DSC00064.JPG);
+}
+.encabezado2 {
+  background-image: url(../ASSETS/FOTOS_CATALOGO/DSC06238.jpg);
+}
+.encabezado3 {
+  background-image: url(../ASSETS/FOTOS_CATALOGO/DSC00070.JPG);
+}
+.encabezado4 {
+  background-image: url(../ASSETS/FOTOS_CATALOGO/DSC06213.jpg);
+}
+.encabezado5 {
+  background-image: url(../ASSETS/FOTOS_CATALOGO/DSC00078.JPG);
+} */
+
+/* CSS FOOTER */
+
+
+/* CSS MÓDULO DE CATÁLOGO */
+
+/* .padre_catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 54rem;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  background-color: rgb(255, 245, 228);
+  margin: 1rem;
+  border-radius: 0.5rem;
+  padding: 0.25;
+}
+
+.catalogo {
+  padding: 20rem;
+  width: 50.125rem;
+  height: 30.25rem;
+  border-radius: 1rem;
+}
+
+.boton_compra {
+  height: 75px;
+  width: 30%;
+  margin: 20px;
+  border-radius: 7px;
+  font-family: "Hurricane", cursive;
+  font-size: 30px;
+}
+
+.boton_compra:hover {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.item1 {
+  background-image: url(../ASSETS/FOTOS_CATALOGO/DSC00064.JPG);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.item2 {
+  background-image: url(../ASSETS/FOTOS_CATALOGO/DSC00070.JPG);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.item3 {
+  background-image: url(../ASSETS/FOTOS_CATALOGO/DSC00078.JPG);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.item4 {
+  background-image: url(../ASSETS/FOTOS_CATALOGO/DSC06192.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.item5 {
+  background-image: url(../ASSETS/FOTOS_CATALOGO/DSC06213.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.item6 {
+  background-image: url(../ASSETS/FOTOS_CATALOGO/DSC06238.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.item7 {
+  background-image: url(../ASSETS/FOTOS_CATALOGO/DSC06280.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.item8 {
+  background-image: url(../ASSETS/FOTOS_CATALOGO/DSC01424\ -\ copia.JPG);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.item9 {
+  background-image: url(../ASSETS/FOTOS_CATALOGO/DSC01428\ -\ copia.JPG);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.item10 {
+  background-image: url(../ASSETS/FOTOS_CATALOGO/DSC01444\ -\ copia.JPG);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.item11 {
+  background-image: url(../ASSETS/FOTOS_CATALOGO/DSC01502.JPG);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.item12 {
+  background-image: url(../ASSETS/FOTOS_CATALOGO/DSC01467\ -\ copia.JPG);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.item13 {
+  background-image: url(../ASSETS/FOTOS_CATALOGO/DSC01483.JPG);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.item14 {
+  background-image: url(../ASSETS/FOTOS_CATALOGO/DSC01494.JPG);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+} */
+
+/* CSS MEDIAQUARRY PARA DISPOSITIVOS PEQUEÑOS */
+
+/* @media screen and (max-width: 1031px) {
+  h1 {
+    position: relative;
+  }
+
+  .nav_responsive {
+    display: none;
+  }
+
+  .nav_responsive_label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 3em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav_responsive_label span,
+  .nav_responsive_label span::before,
+  .nav_responsive_label span::after {
+    display: block;
+    background-color: rgb(61, 44, 77);
+    height: 5px;
+    width: 2em;
+    border-radius: 2px;
+    position: relative;
+  }
+
+  .nav_responsive_label span::before,
+  .nav_responsive_label span::after {
+    content: "";
+    position: absolute;
+  }
+
+  .nav_responsive_label span::before {
+    bottom: 10px;
+  }
+
+  .nav_responsive_label span::after {
+    top: 10px;
+  }
+
+  nav {
+    position: absolute;
+    text-align: right;
+    min-width: 300px;
+    top: 100%;
+    right: 0;
+    background-color: rgba(58, 38, 66, 0.87);
+    border-radius: 15px;
+    width: 25%;
+    display: none;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    margin-left: 0px;
+    margin right: 0px;
+    list-style: none;
+  }
+
+  nav ul li {
+    margin: 2em;
+    display: list-item;
+    text-align: center;
+    color: rgb(224, 124, 9);
+  }
+
+ } */

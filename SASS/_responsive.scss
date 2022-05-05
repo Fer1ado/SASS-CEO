@@ -1,0 +1,81 @@
+@import "_operaciones";
+
+.nav_responsive:checked ~ nav {
+    display:block;
+   }
+
+.nav_responsive {
+    display: none;
+  }
+
+@media screen and (max-width: 1031px) {
+    h1 {
+      position: relative;
+    }
+  
+    .nav_responsive {
+      display: none;
+    }
+  
+    .nav_responsive_label {
+      @include flexpos;
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin-right: 3em;
+      height: 100%;
+    }
+  
+    .nav_responsive_label span,
+    .nav_responsive_label span::before,
+    .nav_responsive_label span::after {
+      display: block;
+      background-color: rgb(61, 44, 77);
+      height: 5px;
+      width: 2em;
+      border-radius: 2px;
+      position: relative;
+    }
+  
+    .nav_responsive_label span::before,
+    .nav_responsive_label span::after {
+      content: "";
+      position: absolute;
+    }
+  
+    .nav_responsive_label span::before {
+      bottom: 10px;
+    }
+  
+    .nav_responsive_label span::after {
+      top: 10px;
+    }
+  
+    nav {
+      position: absolute;
+      text-align: right;
+      min-width: 250px;
+      top: 100%;
+      right: 0;
+      background-color: rgba(58, 38, 66, 0.87);
+      border-radius: 15px;
+      width: 25%;
+      display: none;
+      ul {
+        margin: 0;
+        padding: 0;
+        margin-left: 0px;
+        margin-right: 0px;
+        list-style: none;
+        display:flex;
+        flex-direction: column;
+        li {
+          margin: 0.7em;
+          display: list-item;
+          text-align: center;
+          color: rgb(224, 124, 9);
+        }
+      }
+    }
+        
+}
