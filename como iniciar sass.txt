@@ -1,5 +1,0 @@
-npm init
-
-** y especificar ruta **
-
-sass --watch "archivo de origen" "archivo destino"
